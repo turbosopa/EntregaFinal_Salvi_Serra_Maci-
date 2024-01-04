@@ -84,7 +84,7 @@ window.onload = function () {
             }
             else if (ima.src.endsWith("imeig/KNVB.jpg")) {
                 ima.src = "imeig/GuaKnv.jpg";
-                alert("L'últim guanyador va ser el Feyenoord!");
+                alert("L'últim guanyador va ser el PSV!");
 
             }
             else if (ima.src.endsWith("imeig/GuaKnv.jpg")) {
