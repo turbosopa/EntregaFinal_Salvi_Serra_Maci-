@@ -1,0 +1,216 @@
+@keyframes pujapuja{
+    0%{
+        transform: scale(0.2);
+    }
+    100%{
+        transform: scale(1);
+    } 
+}
+header>h1{
+    font-size: 15vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: rgb(0, 255, 98) 0 0 10px;
+    margin-top: 12vw;
+    padding: 0;
+    animation: pujapuja 4s;
+    animation-iteration-count: 1;
+}
+header{
+    height: 28vw;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#videu1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
+    z-index: -1;
+}
+*{  
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    width:100%;
+    text-align: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+#nap{
+    padding: 0;
+}
+#nap>li{
+    display: inline-block;
+    padding: 1.5vw 3vw;
+}
+#nap>li>a{
+    color: white;
+    text-transform: uppercase;
+    font-size:4vw;
+}
+#nap>li>a:hover{
+    text-shadow: rgb(0, 255, 98) 0 0 10px;
+}
+#fut{
+    background-color: black;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 15vw;
+    padding: 0;
+    margin-top: 3vw;
+}
+#fut>li{
+    display: inline-block;
+    padding: 4vw 2vw 0;
+}
+.peu{
+    color: white;
+    font-size:3vw;
+    text-transform: lowercase;
+}
+svg{
+    padding-inline: 1.2vw;
+    width: 4vw;
+}
+div>ul>li>h1{
+    font-size:10vw;
+    text-align: center;
+    padding: 2vw 0;
+}
+div>ul>li>h2{
+    font-size: 7.7vw;
+    text-align: center;
+    padding: 2vw 0;
+}
+div>ul>li>a{
+    font-size: 1.7vw;
+}
+div>ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.linkingpark{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 7.7vw;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 0.3vw 0;
+}
+.linkingpark>a{
+    font-size: 5.2vw;
+    color: white;
+    text-shadow: black 0 0 20px;
+}
+.linkingpark>a:hover{
+    filter: brightness(1.7);
+    text-shadow: black 0 0 5px;
+}
+.primer{
+    margin-top: 2vw;
+}
+#betis{
+    background:linear-gradient(to right,white 0%,white 7.7%,rgb(0, 92, 0)7.7%,rgb(0, 92, 0)15.4%,white 15.4%,white 23.1%,rgb(0, 92, 0)23.1%,rgb(0, 92, 0)30.8%,white 30.8%,white 38.5%,rgb(0, 92, 0)38.5%,rgb(0, 92, 0)46.2%,white 46.2%,white 53.9%,rgb(0, 92, 0)53.9%,rgb(0, 92, 0)61.6%,white 61.6%,white 69.3%,rgb(0, 92, 0)69.3%,rgb(0, 92, 0)77%,white 77%,white 84.7%,rgb(0, 92, 0)84.7%,rgb(0, 92, 0)92.4%,white 92.4%,white 100%);
+}
+#milan{
+    background:linear-gradient(to right,black 0%,black 19%,red 21%,red 39%,black 41%,black 59%,red 61%,red 79%,black 81%,black 100%);
+}
+#brighton{
+    background:linear-gradient(to right,#318CE7 0%,#318CE7 19%,white 21%,white 39%,#318CE7 41%,#318CE7 59%,white 61%,white 79%,#318CE7 81%,#318CE7 100%);
+}
+#bayer{
+    background:linear-gradient(to right,black 0%,black 19%,red 21%,red 39%,black 41%,black 59%,red 61%,red 79%,black 81%,black 100%);
+}
+#lille{
+    background:linear-gradient(to right,red 0%,red 19%,#13274F 21%,#13274F 39%,red 41%,red 59%,#13274F 61%,#13274F 79%,red 81%,red 100%);
+}
+#psv{
+    background:linear-gradient(to right,white 0%,white 19%,red 21%,red 39%,white 41%,white 59%,red 61%,red 79%,white 81%,white 100%);
+}
+#rule{
+    background:linear-gradient(to right bottom,green 0%,green 19%,yellow 21%,yellow 39%,green 41%,green 59%,yellow 61%,yellow 79%,green 81%,green 100%);
+}
+#rain{
+    background:linear-gradient(to right bottom,green 0%,green 19%,yellow 21%,yellow 39%,green 41%,green 59%,yellow 61%,yellow 79%,green 81%,green 100%);
+}
+#okoc{
+    background:linear-gradient(to right bottom,green 0%,green 19%,yellow 21%,yellow 39%,green 41%,green 59%,yellow 61%,yellow 79%,green 81%,green 100%);
+}
+#elas{
+    background:linear-gradient(to right bottom,green 0%,green 19%,yellow 21%,yellow 39%,green 41%,green 59%,yellow 61%,yellow 79%,green 81%,green 100%);
+}
+#cruy{
+    background:linear-gradient(to right bottom,green 0%,green 19%,yellow 21%,yellow 39%,green 41%,green 59%,yellow 61%,yellow 79%,green 81%,green 100%);
+}
+#step{
+    background:linear-gradient(to right bottom,green 0%,green 19%,yellow 21%,yellow 39%,green 41%,green 59%,yellow 61%,yellow 79%,green 81%,green 100%);
+}
+#rona{
+    background:linear-gradient(to right bottom,green 0%,green 19%,yellow 21%,yellow 39%,green 41%,green 59%,yellow 61%,yellow 79%,green 81%,green 100%);
+}
+#neym{
+    background:linear-gradient(to right bottom,green 0%,green 19%,yellow 21%,yellow 39%,green 41%,green 59%,yellow 61%,yellow 79%,green 81%,green 100%);
+}
+#lali{
+    background:linear-gradient(to right,#AA151B 0%,#AA151B 33.3%,#F1BF00 33.3%,#F1BF00 66.6%,#AA151B 66.6%,#AA151B 100%);
+}
+#prem{
+    background:linear-gradient(to right,white 0%,white 33.3%,#CE1124 33.3%,#CE1124 66.6%,white 66.6%,white 100%);  
+}
+#bund{
+    background:linear-gradient(to right,black 0%,black 33.3%,#DD0000 33.3%,#DD0000 66.6%,#FFCC00 66.6%,#FFCC00 100%); 
+}
+#seri{
+    background:linear-gradient(to right,#008C45 0%,#008C45 33.3%,white 33.3%,white 66.6%,#CD212A 66.6%,#CD212A 100%);
+}
+#ered{
+    background:linear-gradient(to bottom,#C8102E 0%,#C8102E 33.3%,white 33.3%,white 66.6%,#003DA5 66.6%,#003DA5 100%);
+}
+#ligu{
+    background:linear-gradient(to right,red 0%,red 16.6%,orange 16.6%,orange 33.33%,yellow 33.33%,yellow 50%,green 50%,green 66.6%,blue 66.6%,blue 83.2%,purple 83.2%,purple 100%);
+}
+#copare{
+    background:linear-gradient(to right,#AA151B 0%,#AA151B 33.3%,#F1BF00 33.3%,#F1BF00 66.6%,#AA151B 66.6%,#AA151B 100%);
+}
+#engl{
+    background:linear-gradient(to right,white 0%,white 33.3%,#CE1124 33.3%,#CE1124 66.6%,white 66.6%,white 100%);  
+}
+#dfb{
+    background:linear-gradient(to right,black 0%,black 33.3%,#DD0000 33.3%,#DD0000 66.6%,#FFCC00 66.6%,#FFCC00 100%); 
+}
+#copp{
+    background:linear-gradient(to right,#008C45 0%,#008C45 33.3%,white 33.3%,white 66.6%,#CD212A 66.6%,#CD212A 100%);
+}
+#knvb{
+    background:linear-gradient(to bottom,#C8102E 0%,#C8102E 33.3%,white 33.3%,white 66.6%,#003DA5 66.6%,#003DA5 100%);
+}
+#coup{
+    background:linear-gradient(to right,red 0%,red 16.6%,orange 16.6%,orange 33.33%,yellow 33.33%,yellow 50%,green 50%,green 66.6%,blue 66.6%,blue 83.2%,purple 83.2%,purple 100%);
+}
+#cham{
+    background:linear-gradient(to right,blue,rgb(128, 0, 100));    
+}
+#euroli{
+    background:linear-gradient(to right,black,rgb(255, 145, 0)50%,rgb(255, 145, 0));    
+}
+#conf{
+    background:linear-gradient(to right,black,rgb(0, 170, 0)50%,rgb(0, 170, 0));    
+}
+#mund{
+    background:linear-gradient(to right,rgb(207,181,59)40%,rgb(212,175,55),rgb(207,181,59)60%);
+}
+
